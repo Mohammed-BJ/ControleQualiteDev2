@@ -7,7 +7,7 @@ Soit le résultat suivant d’un test de couverture de code :
 - Comment interpréter ce résultat ?
   - Le test de mult() n'a pas été executer car cov = 0%.
   - Pour le reste c'est bon ils ont été éxécuter car le covering est à 100%.
-  - Le test de branche sur div() a bien fait le test de la division par 0.
+  - Le test de branche sur div() à bien fait des test en plus, que les autres n'ont pas fait, on peut en déduire que c'est le test de div par 0 qui est exceptionnelle à la division et il a été reussi.
   - on le voit dans les détail après le seul à tout rater c'est mult.
   -Au total 83% des instructions ont été couvert correct mais il faut une amélioration. 
 - Que faut-il faire pour améliorer ce résultat ?
